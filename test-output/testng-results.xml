@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-21T21:34:43 IST" name="Default suite" finished-at="2023-03-21T21:34:56 IST" duration-ms="13781">
+    <groups>
+    </groups>
+    <test started-at="2023-03-21T21:34:43 IST" name="Default test" finished-at="2023-03-21T21:34:56 IST" duration-ms="13781">
+      <class name="testClasses.AlertsAndWindows">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:testClasses.AlertsAndWindows@8f2ef19]" started-at="2023-03-21T21:34:43 IST" name="openBrowser" finished-at="2023-03-21T21:34:49 IST" duration-ms="6328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="openAlertsSection()[pri:1, instance:testClasses.AlertsAndWindows@8f2ef19]" started-at="2023-03-21T21:34:49 IST" name="openAlertsSection" finished-at="2023-03-21T21:34:49 IST" duration-ms="152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAlertsSection -->
+        <test-method is-config="true" signature="captureFailedTestCase(org.testng.ITestResult)[pri:0, instance:testClasses.AlertsAndWindows@8f2ef19]" started-at="2023-03-21T21:34:49 IST" name="captureFailedTestCase" finished-at="2023-03-21T21:34:49 IST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=openAlertsSection status=SUCCESS method=AlertsAndWindows.openAlertsSection()[pri:1, instance:testClasses.AlertsAndWindows@8f2ef19] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureFailedTestCase -->
+        <test-method signature="handleAlert()[pri:2, instance:testClasses.AlertsAndWindows@8f2ef19]" started-at="2023-03-21T21:34:49 IST" name="handleAlert" finished-at="2023-03-21T21:34:49 IST" duration-ms="160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handleAlert -->
+        <test-method is-config="true" signature="captureFailedTestCase(org.testng.ITestResult)[pri:0, instance:testClasses.AlertsAndWindows@8f2ef19]" started-at="2023-03-21T21:34:49 IST" name="captureFailedTestCase" finished-at="2023-03-21T21:34:49 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=handleAlert status=SUCCESS method=AlertsAndWindows.handleAlert()[pri:2, instance:testClasses.AlertsAndWindows@8f2ef19] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureFailedTestCase -->
+        <test-method signature="handleTimerAlert()[pri:3, instance:testClasses.AlertsAndWindows@8f2ef19]" started-at="2023-03-21T21:34:49 IST" name="handleTimerAlert" finished-at="2023-03-21T21:34:55 IST" duration-ms="6103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handleTimerAlert -->
+        <test-method is-config="true" signature="captureFailedTestCase(org.testng.ITestResult)[pri:0, instance:testClasses.AlertsAndWindows@8f2ef19]" started-at="2023-03-21T21:34:55 IST" name="captureFailedTestCase" finished-at="2023-03-21T21:34:55 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=handleTimerAlert status=SUCCESS method=AlertsAndWindows.handleTimerAlert()[pri:3, instance:testClasses.AlertsAndWindows@8f2ef19] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureFailedTestCase -->
+        <test-method signature="acceptConfirmAlert()[pri:4, instance:testClasses.AlertsAndWindows@8f2ef19]" started-at="2023-03-21T21:34:55 IST" name="acceptConfirmAlert" finished-at="2023-03-21T21:34:55 IST" duration-ms="92" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acceptConfirmAlert -->
+        <test-method is-config="true" signature="captureFailedTestCase(org.testng.ITestResult)[pri:0, instance:testClasses.AlertsAndWindows@8f2ef19]" started-at="2023-03-21T21:34:55 IST" name="captureFailedTestCase" finished-at="2023-03-21T21:34:55 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=acceptConfirmAlert status=SUCCESS method=AlertsAndWindows.acceptConfirmAlert()[pri:4, instance:testClasses.AlertsAndWindows@8f2ef19] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureFailedTestCase -->
+        <test-method signature="verifyAcceptConfirmAlert()[pri:0, instance:testClasses.AlertsAndWindows@8f2ef19]" started-at="2023-03-21T21:34:55 IST" name="verifyAcceptConfirmAlert" finished-at="2023-03-21T21:34:56 IST" depends-on-methods="testClasses.AlertsAndWindows.acceptConfirmAlert" duration-ms="76" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAcceptConfirmAlert -->
+        <test-method is-config="true" signature="captureFailedTestCase(org.testng.ITestResult)[pri:0, instance:testClasses.AlertsAndWindows@8f2ef19]" started-at="2023-03-21T21:34:56 IST" name="captureFailedTestCase" finished-at="2023-03-21T21:34:56 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAcceptConfirmAlert status=SUCCESS method=AlertsAndWindows.verifyAcceptConfirmAlert()[pri:0, instance:testClasses.AlertsAndWindows@8f2ef19] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureFailedTestCase -->
+        <test-method signature="dismissConfirmAlert()[pri:4, instance:testClasses.AlertsAndWindows@8f2ef19]" started-at="2023-03-21T21:34:56 IST" name="dismissConfirmAlert" finished-at="2023-03-21T21:34:56 IST" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dismissConfirmAlert -->
+        <test-method is-config="true" signature="captureFailedTestCase(org.testng.ITestResult)[pri:0, instance:testClasses.AlertsAndWindows@8f2ef19]" started-at="2023-03-21T21:34:56 IST" name="captureFailedTestCase" finished-at="2023-03-21T21:34:56 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=dismissConfirmAlert status=SUCCESS method=AlertsAndWindows.dismissConfirmAlert()[pri:4, instance:testClasses.AlertsAndWindows@8f2ef19] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureFailedTestCase -->
+        <test-method signature="verifyDismissConfirmAlertResult()[pri:0, instance:testClasses.AlertsAndWindows@8f2ef19]" started-at="2023-03-21T21:34:56 IST" name="verifyDismissConfirmAlertResult" finished-at="2023-03-21T21:34:56 IST" depends-on-methods="testClasses.AlertsAndWindows.dismissConfirmAlert" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDismissConfirmAlertResult -->
+        <test-method is-config="true" signature="captureFailedTestCase(org.testng.ITestResult)[pri:0, instance:testClasses.AlertsAndWindows@8f2ef19]" started-at="2023-03-21T21:34:56 IST" name="captureFailedTestCase" finished-at="2023-03-21T21:34:56 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyDismissConfirmAlertResult status=SUCCESS method=AlertsAndWindows.verifyDismissConfirmAlertResult()[pri:0, instance:testClasses.AlertsAndWindows@8f2ef19] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureFailedTestCase -->
+        <test-method signature="handlePromptAlert()[pri:5, instance:testClasses.AlertsAndWindows@8f2ef19]" started-at="2023-03-21T21:34:56 IST" name="handlePromptAlert" finished-at="2023-03-21T21:34:56 IST" duration-ms="92" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handlePromptAlert -->
+        <test-method is-config="true" signature="captureFailedTestCase(org.testng.ITestResult)[pri:0, instance:testClasses.AlertsAndWindows@8f2ef19]" started-at="2023-03-21T21:34:56 IST" name="captureFailedTestCase" finished-at="2023-03-21T21:34:56 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=handlePromptAlert status=SUCCESS method=AlertsAndWindows.handlePromptAlert()[pri:5, instance:testClasses.AlertsAndWindows@8f2ef19] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureFailedTestCase -->
+        <test-method signature="verifyPromptAlertResult()[pri:0, instance:testClasses.AlertsAndWindows@8f2ef19]" started-at="2023-03-21T21:34:56 IST" name="verifyPromptAlertResult" finished-at="2023-03-21T21:34:56 IST" depends-on-methods="testClasses.AlertsAndWindows.handlePromptAlert" duration-ms="162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPromptAlertResult -->
+        <test-method is-config="true" signature="captureFailedTestCase(org.testng.ITestResult)[pri:0, instance:testClasses.AlertsAndWindows@8f2ef19]" started-at="2023-03-21T21:34:56 IST" name="captureFailedTestCase" finished-at="2023-03-21T21:34:56 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyPromptAlertResult status=SUCCESS method=AlertsAndWindows.verifyPromptAlertResult()[pri:0, instance:testClasses.AlertsAndWindows@8f2ef19] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureFailedTestCase -->
+        <test-method is-config="true" signature="exports()[pri:0, instance:testClasses.AlertsAndWindows@8f2ef19]" started-at="2023-03-21T21:34:56 IST" name="exports" finished-at="2023-03-21T21:34:56 IST" duration-ms="380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exports -->
+      </class> <!-- testClasses.AlertsAndWindows -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
